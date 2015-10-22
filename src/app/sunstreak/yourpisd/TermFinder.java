@@ -25,16 +25,16 @@ import java.util.Locale;
 
 public class TermFinder {
 
-	// TODO Hardcoded for 2013-2014 school year
+	// TODO Hardcoded for 2015-2016 school year
 	public enum Term {
-		TERM_0 ("1st Six Weeks", "8/19/2013","10/2/2013"),
-		TERM_1 ("2nd Six Weeks", "10/2/2013", "11/8/2013"),
-		TERM_2 ("3rd Six Weeks", "11/8/2013", "12/20/2013"),
-		TERM_3 ("1st Semester Exam", "12/20/2013", "1/7/2014"),
-		TERM_4 ("4th Six Weeks", "1/7/2014", "2/22/2014"),
-		TERM_5 ("5th Six Weeks", "2/22/2014", "4/18/2014"),
-		TERM_6 ("6th Six Weeks", "4/18/2014", "6/6/2014"),
-		TERM_7 ("2nd Semester Exam", "6/6/2014", "6/6/2014");
+		TERM_0 ("1st Six Weeks", "8/24/2015","9/29/2015"),
+		TERM_1 ("2nd Six Weeks", "9/29/2015", "11/5/2015"),
+		TERM_2 ("3rd Six Weeks", "11/5/2015", "12/18/2015"),
+		TERM_3 ("1st Semester Exam", "12/18/2015", "1/5/2016"),
+		TERM_4 ("4th Six Weeks", "1/5/2016", "2/19/2016"),
+		TERM_5 ("5th Six Weeks", "2/19/2016", "4/15/2016"),
+		TERM_6 ("6th Six Weeks", "4/15/2016", "6/3/2016"),
+		TERM_7 ("2nd Semester Exam", "6/3/2016", "6/3/2016");
 		
 		public final String name;
 		public Date startDate;
